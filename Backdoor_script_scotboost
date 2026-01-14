@@ -223,7 +223,16 @@ local banHammerButton = Instance.new("TextButton")
 styleButton(banHammerButton, "Ban Hammer", 340, 270)
 banHammerButton.MouseButton1Click:Connect(function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/nicolasbarbosa323/ban-hammer/refs/heads/main/ban"))()
-end)local Players = game:GetService("Players")
+end)
+
+-- natuge Fe
+local natugefe = Instance.new("TextButton")
+styleButton(natuge feButton, "natuge Fe", 230, 270)
+Natuge FeButton.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-natuge-FE-73244"))()
+end)
+
+local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 local PlayerGui = LocalPlayer:WaitForChild("PlayerGui")
 local RunService = game:GetService("RunService")
